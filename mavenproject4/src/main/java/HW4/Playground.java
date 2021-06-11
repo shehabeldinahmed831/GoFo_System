@@ -36,7 +36,9 @@ public class Playground {
         this.pricePerHour=pricePerHour;
         
     }
-    
+    /**
+     * this function displays the new Playground
+     */
     public void display(){
         System.out.println("Your Playground info: Name: "+name+" AvailableHour: "+availableHours+" Cancelation Period: "+cancelationPeriod+" GroundMaterial: "+groundMaterial+" Location: "+location+" shape: "+shape+" size: "+size+" Price Per Hour "+pricePerHour);
     }
