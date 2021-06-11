@@ -19,6 +19,9 @@ public class PlaygroundOwner {
     this.phone=phone;
     this.defaultLocation=defaultLocation;
     }
+    /**
+     * this function displays the user account's info
+     */
     public void display(){
         System.out.println("Your Account info is: "+"Name: "+name+" ID: "+id+" E-mail: "+Email+" Phone: "+phone+" Default Location "+defaultLocation);
     }
