@@ -11,6 +11,16 @@ public class PlaygroundOwner {
     private String Email;
     private String phone;
     private String defaultLocation;
+    
+    /**
+     * this function takes the information of the user
+     * @param name
+     * @param id
+     * @param password
+     * @param Email
+     * @param phone
+     * @param defaultLocation 
+     */
     public void register(String name,int id,String password,String Email,String phone,String defaultLocation){
     this.name=name;
     this.id=id;
@@ -19,6 +29,7 @@ public class PlaygroundOwner {
     this.phone=phone;
     this.defaultLocation=defaultLocation;
     }
+    
     /**
      * this function displays the user account's info
      */
