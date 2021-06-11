@@ -13,6 +13,17 @@ public class Playground {
     private double pricePerHour;
     private int availableHours;
     private String location;
+    /**
+     * this function adds a new playground
+     * @param name
+     * @param size
+     * @param shape
+     * @param cancelationPeriod
+     * @param groundMaterial
+     * @param pricePerHour
+     * @param availableHours
+     * @param location 
+     */
     public void addPlayground(String name,int size,String shape,String cancelationPeriod,String groundMaterial,double pricePerHour,int availableHours,String location)
     {
         this.name=name;
@@ -25,6 +36,7 @@ public class Playground {
         this.pricePerHour=pricePerHour;
         
     }
+    
     public void display(){
         System.out.println("Your Playground info: Name: "+name+" AvailableHour: "+availableHours+" Cancelation Period: "+cancelationPeriod+" GroundMaterial: "+groundMaterial+" Location: "+location+" shape: "+shape+" size: "+size+" Price Per Hour "+pricePerHour);
     }
